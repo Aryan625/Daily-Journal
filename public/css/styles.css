@@ -1,0 +1,164 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.h1 {
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 20px 0 10px;
+}
+
+.p {
+  margin: 0 0 10px;
+  line-height: 1.42857143;
+}
+
+.centered {
+  text-align: center;
+  background-color: inherit;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+  border: 1px solid;
+  width: 180px;
+  height: 220px;
+  letter-spacing: 0px;
+}
+
+.btn {
+  width: 150px;
+  background-color: #1abc9c;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #16A596;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* posts */
+
+.p a {
+  color: grey;
+}
+
+.p a:hover {
+  color: #1abc9c !important;
+  text-decoration: none;
+}
+
+.nopost {
+  color: grey;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.nopost span {
+  font-size: 4.5rem;
+}
+
+.content {
+  white-space: pre-wrap;
+}
+
+/* login page */
+.container-login {
+  padding-top: 60px;
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  height: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, .03) !important;
+}
+
+.social_icon span a {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #1abc9c;
+}
+
+.social_icon span a:hover {
+  color: #16A596;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: grey;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #1abc9c;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.login_btn {
+  color: black;
+  background-color: #1abc9c;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: #16A596;
+}
